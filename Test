@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sentinel Security Solutions</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="bg-[url('https://images.unsplash.com/photo-1556740749-887f6717d7e4')] bg-cover bg-center text-white h-[90vh] flex flex-col justify-center items-center text-center px-6">
+    <h1 class="text-5xl font-bold mb-4 drop-shadow-lg">Protecting What Matters Most</h1>
+    <p class="text-xl mb-6 max-w-2xl">Professional security services for businesses, homes, and events — trusted by leading companies nationwide.</p>
+    <div class="flex gap-4">
+      <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl text-lg shadow-md">Get a Free Quote</a>
+      <a href="#services" class="bg-white/20 hover:bg-white/30 border border-white px-6 py-3 rounded-xl text-lg">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20 bg-gray-100 text-center">
+    <h2 class="text-3xl font-bold mb-12">Our Security Services</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+      <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Armed & Unarmed Guards</h3>
+        <p class="text-gray-600">Highly trained professionals ensuring safety on-site.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">CCTV & Monitoring</h3>
+        <p class="text-gray-600">Advanced surveillance systems with 24/7 monitoring.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Event Security</h3>
+        <p class="text-gray-600">Reliable crowd and perimeter control for any event.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Corporate Security</h3>
+        <p class="text-gray-600">Protect your business assets and staff.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Alarm Response</h3>
+        <p class="text-gray-600">Immediate dispatch when alarms are triggered.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold mb-2">Mobile Patrols</h3>
+        <p class="text-gray-600">Regular property patrols to deter crime and damage.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="py-20 bg-white text-center px-6">
+    <h2 class="text-3xl font-bold mb-6">Why Choose Sentinel Security?</h2>
+    <p class="max-w-3xl mx-auto text-gray-600 text-lg">
+      With over 15 years of experience, Sentinel Security Solutions provides comprehensive protection with integrity, professionalism, and vigilance.
+      Our licensed team uses cutting-edge technology and proven protocols to keep our clients safe.
+    </p>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-20 bg-gray-50 text-center">
+    <h2 class="text-3xl font-bold mb-10">What Our Clients Say</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+      <div class="bg-white p-8 rounded-2xl shadow-md">
+        <p class="italic mb-4 text-gray-700">“Sentinel provided excellent security for our corporate event — professional and discreet.”</p>
+        <p class="font-semibold text-gray-900">- Alex M.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-md">
+        <p class="italic mb-4 text-gray-700">“Their guards are top-notch and always reliable. We feel truly protected.”</p>
+        <p class="font-semibold text-gray-900">- Jamie L.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-md">
+        <p class="italic mb-4 text-gray-700">“Fantastic service from start to finish. Highly recommended for any business.”</p>
+        <p class="font-semibold text-gray-900">- Dana K.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-blue-600 text-white text-center px-6">
+    <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+    <p class="max-w-xl mx-auto mb-10">Contact us today to discuss your security needs or request a free consultation.</p>
+    <form class="max-w-xl mx-auto grid gap-4">
+      <input type="text" placeholder="Name" class="p-3 rounded-xl text-gray-800" required />
+      <input type="email" placeholder="Email" class="p-3 rounded-xl text-gray-800" required />
+      <input type="text" placeholder="Phone" class="p-3 rounded-xl text-gray-800" />
+      <textarea placeholder="Message" rows="4" class="p-3 rounded-xl text-gray-800"></textarea>
+      <button type="submit" class="bg-white text-blue-600 font-semibold py-3 rounded-xl hover:bg-gray-100 transition">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 text-center py-6 text-sm">
+    © <script>document.write(new Date().getFullYear())</script> Sentinel Security Solutions. All rights reserved.
+  </footer>
+
+</body>
+</html>
